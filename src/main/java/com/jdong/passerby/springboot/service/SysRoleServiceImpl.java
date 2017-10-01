@@ -2,7 +2,7 @@ package com.jdong.passerby.springboot.service;
 
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.jdong.passerby.springboot.entity.SysRole;
-import com.jdong.passerby.springboot.mapper.SysRoleMapper;
+import com.jdong.passerby.springboot.dao.SysRoleMapper;
 import org.springframework.stereotype.Service;
 
 /**

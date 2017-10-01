@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.jdong.passerby.springboot.entity.FrontPage;
 import com.jdong.passerby.springboot.entity.SysUser;
 import com.jdong.passerby.springboot.entity.UserOnlineBO;
-import com.jdong.passerby.springboot.mapper.SysUserMapper;
+import com.jdong.passerby.springboot.dao.SysUserMapper;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.session.mgt.DefaultSessionKey;
 import org.apache.shiro.session.mgt.SessionManager;
