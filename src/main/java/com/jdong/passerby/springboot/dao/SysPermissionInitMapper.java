@@ -3,6 +3,8 @@ package com.jdong.passerby.springboot.dao;
 import com.jdong.passerby.springboot.entity.SysPermissionInit;
 import com.baomidou.mybatisplus.mapper.BaseMapper;
 
+import java.util.List;
+
 /**
  * <p>
   *  Mapper 接口
@@ -13,4 +15,5 @@ import com.baomidou.mybatisplus.mapper.BaseMapper;
  */
 public interface SysPermissionInitMapper extends BaseMapper<SysPermissionInit> {
 
+    List<SysPermissionInit> selectAll();
 }
