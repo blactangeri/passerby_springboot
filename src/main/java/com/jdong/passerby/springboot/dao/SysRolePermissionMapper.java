@@ -1,4 +1,4 @@
-package com.jdong.passerby.springboot.mapper;
+package com.jdong.passerby.springboot.dao;
 
 import com.jdong.passerby.springboot.entity.SysRolePermission;
 import com.baomidou.mybatisplus.mapper.BaseMapper;
